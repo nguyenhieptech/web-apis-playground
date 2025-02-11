@@ -1,0 +1,19 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.lineHeight": 21,
+  "editor.tabSize": 2,
+  "tailwindCSS.suggestions": true,
+  "tailwindCSS.classAttributes": [
+    // Default
+    "class",
+    "className"
+  ],
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true
+  }
+}
