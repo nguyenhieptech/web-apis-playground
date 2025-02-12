@@ -1,5 +1,7 @@
 // https://github.com/mdn/dom-examples/blob/main/web-workers/simple-web-worker/main.js
 
+import '/src/style.css';
+
 // const app = document.querySelector('#app') as HTMLDivElement;
 const first = document.querySelector('#number1') as HTMLInputElement;
 const second = document.querySelector('#number2') as HTMLInputElement;
@@ -11,11 +13,11 @@ const result = document.querySelector('.result') as HTMLParagraphElement;
 //       <form>
 //         <div>
 //           <label for="number1">Multiply number 1: </label>
-//           <input type="text" id="number1" value="0" />
+//           <input class="border-1 rounded-sm p-1" type="text" id="number1" value="0" />
 //         </div>
 //         <div>
 //           <label for="number2">Multiply number 2: </label>
-//           <input type="text" id="number2" value="0" />
+//           <input class="border-1 rounded-sm p-1" type="text" id="number2" value="0" />
 //         </div>
 //       </form>
 
